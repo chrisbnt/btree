@@ -42,7 +42,7 @@ Like `BTreeG` but uses the `interface{}` type for data. Backwards compatible. Th
 ```go
 // Basic
 Set(key, value)    // insert or replace an item
-Get(key, value)    // get an existing item
+Get(key)           // get an existing item
 Delete(key)        // delete an item
 Len()              // return the number of items in the map
 
